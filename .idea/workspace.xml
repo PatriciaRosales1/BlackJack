@@ -4,10 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6211485e-9895-411c-b153-c6ea05b43e10" name="Changes" comment="Inicio portafolio UD6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ad/blackjack/Aplicación.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ad/blackjack/Carta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ad/blackjack/Juego.java" afterDir="false" />
+    <list default="true" id="6211485e-9895-411c-b153-c6ea05b43e10" name="Changes" comment="Creadas clases Aplicación, Carta y Juego">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ad/blackjack/ControladorBlackjack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ad/blackjack/blackjack.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/10_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/10_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/10_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/10_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/2_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/2_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/2_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/2_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/3_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/3_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/3_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/3_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/4_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/4_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/4_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/4_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/5_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/5_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/5_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/5_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/6_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/6_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/6_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/6_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/7_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/7_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/7_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/7_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/8_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/8_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/8_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/8_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/9_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/9_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/9_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/9_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/ace_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/ace_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/ace_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/ace_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/ace_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/black_joker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/jack_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/jack_of_clubs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/jack_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/jack_of_diamonds2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/jack_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/jack_of_hearts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/jack_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/jack_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/king_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/king_of_clubs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/king_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/king_of_diamonds2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/king_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/king_of_hearts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/king_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/king_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/queen_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/queen_of_clubs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/queen_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/queen_of_diamonds2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/queen_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/queen_of_hearts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/queen_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/queen_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cartas/red_joker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ad/blackjack/Aplicación.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ad/blackjack/Aplicación.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ad/blackjack/Carta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ad/blackjack/Carta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +86,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -27,10 +97,45 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="2cx3E6GtkWUUN6lDbz5uv2mSLIP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/patricia/Documents/Interfaces/BlackJack/src/main/java/ad/blackjack&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/patricia/Documents/Interfaces/UD3/TableroAjedrez&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\patricia\Documents\Interfaces\BlackJack\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Aplicación" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ad.blackjack.Aplicación" />
+      <module name="BlackJack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ad.blackjack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Aplicación" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,7 +145,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709037467332</updated>
-      <workItem from="1709037468953" duration="425000" />
+      <workItem from="1709037468953" duration="1488000" />
+      <workItem from="1709039288808" duration="49000" />
+      <workItem from="1709039349589" duration="177000" />
+      <workItem from="1709112899916" duration="3959000" />
+      <workItem from="1709119906633" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio portafolio UD6">
       <created>1709037531390</created>
@@ -49,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709037531390</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creadas clases Aplicación, Carta y Juego">
+      <created>1709038805985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709038805985</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,6 +184,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio portafolio UD6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio portafolio UD6" />
+    <MESSAGE value="Creadas clases Aplicación, Carta y Juego" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creadas clases Aplicación, Carta y Juego" />
   </component>
 </project>
